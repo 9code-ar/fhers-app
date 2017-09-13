@@ -16,6 +16,14 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+ document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    // Now safe to use the Codova API
+ window.location="http://your.website"; }
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -35,7 +43,8 @@ var app = {
     onDeviceReady: function() {
         console.log('Received Device Ready Event');
         console.log('calling setup push');
-        app.setupPush();
+//        app.setupPush();
+        window.location="https://fhers.com";
     },
     setupPush: function() {
         console.log('calling push init');
