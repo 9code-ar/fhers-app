@@ -15,9 +15,12 @@
                 "SENDER_ID": "XXXXXXX"
             }
         },
-        "platforms": []
+        "platforms": [
+            "android"
+        ]
     },
     "dependencies": {
+        "cordova-android": "^6.2.3",
         "cordova-plugin-console": "~1.0.3",
         "cordova-plugin-dialogs": "~1.2.1",
         "cordova-plugin-statusbar": "~2.1.3",
